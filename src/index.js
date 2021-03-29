@@ -24,6 +24,7 @@ const client = new ApolloClient({
   cache,
 });
 
+//simple gql test to server
 client
   .query({
     query: gql`
