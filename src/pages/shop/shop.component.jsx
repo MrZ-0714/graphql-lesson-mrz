@@ -3,7 +3,8 @@ import { Route } from "react-router-dom";
 
 import { default as CollectionsOverview } from "../../components/collections-overview/collections-overview.container";
 // import CollectionsOverview from "../../components/collections-overview/collections-overview.component";
-import CollectionPage from "../collection/collection.component";
+import { default as CollectionPage } from "../collection/collection.container";
+// import CollectionPage from "../collection/collection.component";
 
 const ShopPage = ({ match }) => (
   <div className="shop-page">
